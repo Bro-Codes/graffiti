@@ -200,9 +200,15 @@ header .main .dot{
   font-size: 20px;
   font-weight: bold
 }
+header button{
+  transition: 2s
+}
 header button:hover{
+  transition: 2s;
+  border-left: 10px solid red;
+  border-right: 10px solid red;
   background: transparent !important;
-  cursor: pointer
+  cursor: pointer;
 }
 header .main button{
   background: transparent;
