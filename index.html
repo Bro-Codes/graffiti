@@ -10,14 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-		@media screen and (max-width: 360px){
-			  .img-grid {
-			    display: flex;
-			    flex-direction: column
-			  }
-		}
-	</style>
 </head>
 <body>
 	<header id="head" class="bg">
@@ -77,9 +69,10 @@
 		<div class="container-main">
 			<div class="main">
 				<h2 class="text-light">Graffiti<span class="dot" style="color: green; font-size: 40px">.</span></h2>
-				<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<div class="sub">
+					<img id="quotes" src="./Images/left-quote.png">
+					<p class="text-light">Graffiti is one of the few tools you have if you have nothing and if you don't come up with a picture to cure world poverty, you can make someone smile while they have a piss.</p>
+				</div>
 				<button class="btn btn-secondary btn-outline">Explore <span class="dot" style="color: green;">.</span></button>
 			</div>
 		</div>
@@ -94,10 +87,9 @@
 				</div>
 				<div class="abt-desc col-lg-6 col-md-6 col-sm-12 text-light text-justify">
 					<h3 class="text-light text-justify">About Me<span class="dot" style="color: green; font-size: 50px">.</span></h3>
-					<p id="text">>Basically I am Am Emarati Abstract Graffit artist, I do one of a kind drawings and big mural graffiti. 
-						Being born and raised in a creative media house was an inspiration for me and which fuels my creativity and makes me stand out of the crowd and be 
-						different where all my drawings are done based on the moment and mental stage at that time non of the paintings are planned for 
-						“ go with flow of that painting moment “ </p>
+					<p id="text">Basically I am Am Emarati Abstract Graffit artist, I do one of a kind drawings and big mural graffiti. Being born and raised in a creative media house was an inspiration for me and which fuels my creativity and makes me stand out of the crowd and be different where all my drawings are done based on the moment and mental stage at that time non of the paintings are planned for “ go with flow of that painting moment “ 
+
+					</p>
 					<button id="btn" class="btn btn-secondary btn-outline" onclick="show()">Read More <span class="dot" style="color: green; font-size: 50px">.</span></button>
 					
 					<div class="details d-flex">
@@ -131,7 +123,8 @@
 		function show(){
 			document.getElementById("text").innerHTML += 
 			"<p>Drawing and doing graffiti is a meditative ART to me, it’s when I delete all thoughts and worries of the life and zone into the colors Every drawing has multiple meanings each person sees a different thing it shows how we have different opinions over the sAme drawing and that reflects the uniqueness in every person point of view without without guidance towards any specific thought Get lost in the drawings and draw any scale of thought around it and it will be right because it’s what you see and what makes sense to you and only you....</p> "
-			readMore.style.display="none";
+
+			readMore.style.display="none"
 
 		}
 	</script>
@@ -193,9 +186,8 @@
 				<div class="item testimony-card">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>Peope say graffiti is irresponsible and childish... But that's only if it's done properly</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -215,9 +207,8 @@
 				<div class="item ml-2 mr-2 testimony-card">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>The part of graffiti I like are really antagonizing still, it's not something that a museum would really embrace.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -237,9 +228,8 @@
 				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>Wildstyles on trains didn't make much sense to me untill I first started and they still don't today.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -259,9 +249,8 @@
 				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>After pop art, graffiti is probably the biggest art movement in recent history to have such an impact on culture.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -281,9 +270,8 @@
 				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>Aristolean logic is massive and marmoreal, but every monument accumulates graffiti.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -303,9 +291,8 @@
 				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>Graffiti is something written on a wall, and, of course, art can be produced anywhere; a wall is just another venue.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -325,9 +312,8 @@
 				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="Card-title">Nice Comment!</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h5 class="Card-title">Nice Comment  <i class="fa fa-heart" style="color: red;"></i>!</h5>
+							<p>Graffiti is beautiful, just like a brick in the face of a cop.</p>
 						</div>
 						<div class="card-footer">
 							<div>
@@ -354,8 +340,8 @@
 		<h3 class="text-center text-light">Get In Touch<span class="dot" style="color: green; font-size: 40px">.</span></h3>
 		<div class="col-lg-12">
 			<div class="row">
-				<div class="col-lg-6 col-sm-12">
-					<img src="./Images/intro-6.jpg" class="img-fluid" height="100%">
+				<div class="col-lg-6 col-sm-12 contact-img">
+					<img height="100%">
 				</div>
 
 					<form method="POST"  class="form col-lg-6 needs-validation" novalidate="true">
@@ -381,7 +367,7 @@
 					<button type="submit" class="btn btn-block hvr-right btn-lg">
 						Submit
 					</button>
-					<em class="text-center text-light"> PS You'll Never miss out on our flash sales and other events</em>
+					<em class="text-center text-light">Send a Raven <i class="fa fa-telegram"></i></em>
 				</form>
 
 				</div>
@@ -395,10 +381,10 @@
     <div class="text-center">
       <h4 class="font-weight-bold">Follow Us</h4>
       <div class="d-flex flex-row justify-content-center">
-        <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
-        <span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
-        <span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>
-        <span><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></span>
+        <span><a href="https://www.facebook.com/broCodesdev"><i class="fa fa-facebook fa-2x"></i></a></span>
+        <span><a href="https://twitter.com/Emmanue15620857"><i class="fa fa-twitter fa-2x"></i></a></span>
+        <span><a href="https://wa.me/+2348059974620"><i class="fa fa-whatsapp  fa-2x"></i></a></span>
+        <span><a href="https://instagram.com/maven_codes"><i class="fa fa-pinterest fa-2x"></i></a></span>
       </div>
       <p>&copy; <span id="displayYear"></span> copyright: Maven_Codes</p>
       
