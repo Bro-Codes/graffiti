@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graffiti Art</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap4/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header id="head" class="bg">
+		<nav class="navbar navbar-expand-md" style="background: red">
+			<a href="#" class="navbar-brand">Graffiti</a>
+			<button class="navbar-toggler hamburger" data-toggle="collapse" data-target="#menu" type="button" id="hamburger">
+				<div class="nav-btn-icon is-active"></div>
+				<div class="nav-btn-icon is-active"></div>
+				<div class="nav-btn-icon is-active"></div>
+			</button>
+			<div id="menu" class="collapse navbar-collapse navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item list">
+						<a href="#head" class="">
+							<span class="icon">
+								<i class="fa fa-home"></i>
+							</span>
+							<span class="text">Home</span>
+						</a>
+					</li>
+					<li class="nav-item list">
+						<a href="#about" class="">
+							<span class="icon">
+								<i class="fa fa-user-plus "></i>
+							</span>
+							<span class="text">Profile</span>
+						</a>
+					</li>
+					<li class="nav-item list">
+						<a href="#contact" class="">
+							<span class="icon">
+								<i class="fa fa-envelope"></i>
+							</span>
+							<span class="text">Message</span>
+						</a>
+					</li>
+					<li class="nav-item list">
+						<a href="#gallery" class="">
+							<span class="icon">
+								<i class="fa fa-camera-retro"></i>
+							</span>
+							<span class="text">Photos</span>
+						</a>
+					</li>
+					<!-- <li class="nav-item list">
+						<a href="#" class="">
+							<span class="icon">
+								<i class="fa fa-tools"></i>
+							</span>
+							<span class="text">Settings</span>
+						</a>
+					</li> -->
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container-main">
+			<div class="main">
+				<h2 class="text-light">Graffiti<span class="dot" style="color: green; font-size: 40px">.</span></h2>
+				<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<button class="btn btn-secondary btn-outline">Explore <span class="dot" style="color: green;">.</span></button>
+			</div>
+		</div>
+	</header>
+
+	<!-- ABOUT ME -->
+	<section class="abt-me container-fluid py-3" id="about">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="row">
+				<div class="abt-img col-lg-6 col-md-6 col-sm-12">
+					<img src="" class="img-fluid">
+				</div>
+				<div class="abt-desc col-lg-6 col-md-6 col-sm-12 text-light text-justify">
+					<h3 class="text-light text-justify">About Me<span class="dot" style="color: green; font-size: 50px">.</span></h3>
+					<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum....</p>
+					<button id="btn" class="btn btn-secondary btn-outline" onclick="show()">Read More <span class="dot" style="color: green; font-size: 50px">.</span></button>
+					
+					<div class="details d-flex">
+						<h3 class=" mr-5">Abdullashoiab</h3>
+						<em>Graffiti Artist</em>
+					</div>
+						
+					<ul class="about-link">
+						<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+						
+						<li><a href=""><i class="fa fa-envira"></i></a></li>
+						
+						
+						<li><a href=""><i class="fa fa-reddit-alien"></i></a></li>
+						
+						
+						<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+						
+						
+						<li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+				 
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+	</section>
+	<script type="text/javascript">
+		var readMore = document.getElementById("btn")
+		var showS = document.getElementById("show")
+		function show(){
+			document.getElementById("text").innerHTML += 
+			"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> "
+			readMore.style.display="none"
+
+		}
+	</script>
+	<!-- END OF ABOUT ME -->
+			
+
+	<!-- GALLERY SECTION -->
+	<section id="gallery">
+		<div class="container-fluid px-4 gallery-container">
+			<h2 class="text-light px-3">Art Gallery<span class="dot" style="color: green; font-size: 40px">.</span></h2>
+			
+			<div class="img-grid">
+				<a href="./Images/img-1.jpeg" data-lightbox="model" data-title="Caption" class="image-grid-col-2 image-grid-row-2">
+					<img src="./Images/img-1.jpeg" >
+				</a>
+				<a href="./Images/img-2.png" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-2.png">
+				</a>
+				<a href="./Images/img-12.jpeg" data-lightbox="model" data-title="Caption" class="image-grid-row-2">
+					<img src="./Images/img-12.jpeg">
+				</a>
+				<a href="./Images/img-4.jpeg" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-4.jpeg">
+				</a>
+				<a href="./Images/img-5.jpeg" data-lightbox="model" data-title="Caption" >
+					<img src="./Images/img-5.jpeg">
+				</a>
+				<a href="./Images/img-11.jpeg" data-lightbox="model" data-title="Caption" class="image-grid-col-2">
+					<img src="./Images/img-11.jpeg">
+				</a>
+				<a href="./Images/img-7.jpeg" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-7.jpeg">
+				</a>
+				<a href="./Images/img-8.jpeg" data-lightbox="model" data-title="Caption" class="image-grid-col-3">
+					<img src="./Images/img-8.jpeg">
+				</a>
+				<a href="./Images/img-9.jpeg" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-9.jpeg">
+				</a>
+				<a href="./Images/img-10.jpeg" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-10.jpeg">
+				</a>
+				<a href="./Images/img-6.jpeg" data-lightbox="model" data-title="Caption">
+					<img src="./Images/img-6.jpeg">
+				</a>
+				<a href="./Images/img-13.jpeg" data-lightbox="model" data-title="Caption" class="image-grid-col-2">
+					<img src="./Images/img-13.jpeg">
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- END OF GALLERY SECTION -->
+
+	<!-- TESTIMONIALS -->
+	<section id="testimony">
+		<div class="container">
+			<h4 class="text-light">Popular Consensus<span class="dot" style="color: green; font-size: 40px">.</span></h4>
+			<div class="owl-carousel owl-theme text-justify">
+				<div class="item testimony-card">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item ml-2 mr-2 testimony-card"style="background: #ddd;">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="Card-title">Nice Comment!</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-footer">
+							<div>
+								<img src="./Images/intro-6.jpg">
+								<p>Alice Drake</p>
+							</div>
+							
+							<ul>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END OF TESTIMONIALS -->
+
+	<!-- CONTACT SECTION -->
+	<section class="pt-3 contact container" id="contact">
+		<h3 class="text-center text-light">Get In Touch<span class="dot" style="color: green; font-size: 40px">.</span></h3>
+		<div class="col-lg-12">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12">
+					<img src="./Images/intro-6.jpg" class="img-fluid" height="100%">
+				</div>
+
+					<form method="POST"  class="form col-lg-6 needs-validation" novalidate="true">
+					<div class="form-group">
+						<label for="email" class="text-light">Email Address! <span style="color: red">*</span> :</label>
+						<input class="form-control" type="Email" id="email" name="email" placeholder="Your Email Address" aria-describedby="emailHint" required>
+						<div class="valid-feedback"><i class="fas fa-check-circle" style="font-size: 25px"></i></div>
+						<div class="invalid-feedback">Please Fill Out This Field</div>
+					</div>
+
+					<div class="form-group">
+						<label for="name" class="text-light">Full Name <span style="color: red">*</span> :</label>
+						<input type="Name" name="Name" class="form-control" type="text" placeholder="Name" id="name" required>
+						<div class="valid-feedback"><i class="fas fa-check-circle" style="font-size: 25px"></i></div>
+						<div class="invalid-feedback">Please Fill Out This Field</div>
+					</div>
+
+					<div class="form-group">
+						<label for="message" class="text-light">Message:</label>
+						<textarea id="message" class="form-control" placeholder="Leave A Message" rows="5" name="message"></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-block hvr-right btn-lg">
+						Submit
+					</button>
+					<em class="text-center text-light"> PS You'll Never miss out on our flash sales and other events</em>
+				</form>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END OF CONTACT SECTION -->
+
+	<!-- FOOTER SECTION -->
+  <footer>
+    <div class="text-center">
+      <h4 class="font-weight-bold">Follow Us</h4>
+      <div class="d-flex flex-row justify-content-center">
+        <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
+        <span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
+        <span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>
+        <span><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></span>
+      </div>
+      <p>&copy; <span id="displayYear"></span> copyright: Maven_Codes</p>
+      
+    </div>
+  </footer>
+
+  <!-- footer section -->
+<script type="text/javascript">
+	const btn = document.getElementById("hamburger");
+	btn.addEventListener("click", function(){
+		this.classList.toggle("is-active")
+	})
+</script>
+<script type="text/javascript" src="./JS/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./JS/popper.js"></script>
+<script type="text/javascript" src="./JS/bootstrap.min.js"></script>
+<script type="text/javascript" src="./JS/lightbox-plus-jquery.js"></script>
+<script type="text/javascript" src="./JS/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+	$(".owl-carousel").owlCarousel({
+		autoplay: true,
+		autoplayHoverPause: true,
+		loop: true,
+		nav: true,
+		dots: true,
+		stagePadding: 5,
+		responsive: {
+			0: {
+				items: 1,
+				nav: false
+			},
+			468: {
+				items: 2,
+				nav: false
+			},
+			768: {
+				items: 2.5,
+				dots: true
+			},
+			1000: {
+				items: 3,
+				dots: true
+			}
+		}
+
+
+	});
+</script>
+</body>
+</html>
