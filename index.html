@@ -10,6 +10,14 @@
 	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@media screen and (max-width: 360px){
+			  .img-grid {
+			    display: flex;
+			    flex-direction: column
+			  }
+		}
+	</style>
 </head>
 <body>
 	<header id="head" class="bg">
@@ -86,12 +94,10 @@
 				</div>
 				<div class="abt-desc col-lg-6 col-md-6 col-sm-12 text-light text-justify">
 					<h3 class="text-light text-justify">About Me<span class="dot" style="color: green; font-size: 50px">.</span></h3>
-					<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum....</p>
+					<p id="text">>Basically I am Am Emarati Abstract Graffit artist, I do one of a kind drawings and big mural graffiti. 
+						Being born and raised in a creative media house was an inspiration for me and which fuels my creativity and makes me stand out of the crowd and be 
+						different where all my drawings are done based on the moment and mental stage at that time non of the paintings are planned for 
+						“ go with flow of that painting moment “ </p>
 					<button id="btn" class="btn btn-secondary btn-outline" onclick="show()">Read More <span class="dot" style="color: green; font-size: 50px">.</span></button>
 					
 					<div class="details d-flex">
@@ -124,8 +130,8 @@
 		var showS = document.getElementById("show")
 		function show(){
 			document.getElementById("text").innerHTML += 
-			"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> "
-			readMore.style.display="none"
+			"<p>Drawing and doing graffiti is a meditative ART to me, it’s when I delete all thoughts and worries of the life and zone into the colors Every drawing has multiple meanings each person sees a different thing it shows how we have different opinions over the sAme drawing and that reflects the uniqueness in every person point of view without without guidance towards any specific thought Get lost in the drawings and draw any scale of thought around it and it will be right because it’s what you see and what makes sense to you and only you....</p> "
+			readMore.style.display="none";
 
 		}
 	</script>
