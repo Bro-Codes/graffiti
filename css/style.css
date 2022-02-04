@@ -378,10 +378,10 @@ header .main button{
     grid-row: span 1
   }
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 420px){
   .img-grid {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 }
 
