@@ -378,6 +378,13 @@ header .main button{
     grid-row: span 1
   }
 }
+@media screen and (max-width: 360px){
+  .img-grid {
+    display: flex;
+    flex-direction: column
+  }
+}
+
 
 /* TESTIMONY */
 #testimony .owl-carousel .testimony-card{
