@@ -150,11 +150,32 @@ header .main{
   height: 50%%;
   background: ;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 25%;
   transition: all 2s;
-  animation: slideIn 5s ease-in-out
+  animation: slideIn 5s ease-in-out;
+  display: flex;
+  flex-direction: column
 }
+header .sub{
+  text-align: justify
+}
+header .sub p{
+	line-height: 28px !important;
+	display: inline !important;
+	text-align: !important;
+}
+
+header .sub img{
+	width: 30px;
+	height: 30px;
+	line-height: 100px;
+	display: inline-block !important;
+	vertical-align: -6px;
+}
+
+
+
 @keyframes slideIn{
   0%{
     transform: translateX(-1000px)
@@ -184,7 +205,7 @@ header button:hover{
   cursor: pointer
 }
 header .main button{
-  background: transparent
+  background: transparent;
 }
 @media(max-width: 520px){
   nav .navbar-brand, .navbar-brand:hover{
@@ -351,9 +372,7 @@ header .main button{
 .image-grid-row-2 {
   grid-row: span 2;
 }
-.image-grid-col-3{
-  grid-column: span 3
-}
+
 @media screen and (min-width: 720px){
   .lb-image{
     min-width: 400px !important;
@@ -362,6 +381,9 @@ header .main button{
   .img-grid{
    --row-height: 150px;
     --gap: 10px
+  }
+  .image-grid-col-3{
+    grid-column: span 3
   }
 }
 
@@ -378,13 +400,15 @@ header .main button{
     grid-row: span 1
   }
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 360px){
   .img-grid {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
+  }
+  .img-grid img{
+    height: 200px;
   }
 }
-
 
 /* TESTIMONY */
 #testimony .owl-carousel .testimony-card{
@@ -393,7 +417,8 @@ header .main button{
 }
 #testimony .card-body{
   padding: 6px 6px 0px;
-  text-align: justify
+  text-align: justify;
+  min-height: 120px
 }
 #testimony .card-footer div{
   display: flex;
@@ -441,6 +466,13 @@ form{
 }
 .contact img{
   height: 100% !important;
+  border-radius: 10px
+}
+.contact-img{
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), 
+              url("../Images/MTN_WATERBASED1.jpg");
+  background-position: center;
+  background-size: cover;
   border-radius: 10px
 }
 
